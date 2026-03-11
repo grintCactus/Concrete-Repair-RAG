@@ -1,5 +1,5 @@
 """
-app.py — Structural Concrete Repair RAG  (Streamlit UI)
+app.py — Concrete Repair RAG  (Streamlit UI)
 Run with: venv/Scripts/streamlit.exe run app.py
 """
 
@@ -27,7 +27,7 @@ COLLECTION_NAME = "scr_core"
 
 # ── Page config ────────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Concrete Repair Assistant",
+    page_title="Concrete Repair RAG",
     page_icon="🏗️",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -51,7 +51,7 @@ def check_login():
     .login-sub   { font-size: 14px; color: #888; margin-bottom: 28px; }
     </style>
     <div class="login-box">
-      <div class="login-title">🏗️ Concrete Repair Assistant</div>
+      <div class="login-title">🏗️ Concrete Repair RAG</div>
       <div class="login-sub">Sign in to continue</div>
     </div>
     """, unsafe_allow_html=True)
@@ -517,7 +517,7 @@ with st.sidebar:
 
 # ── Main area ──────────────────────────────────────────────────────────────────
 if not st.session_state.messages:
-    st.markdown('<div class="welcome-title">Concrete Repair Assistant</div>', unsafe_allow_html=True)
+    st.markdown('<div class="welcome-title">Concrete Repair RAG</div>', unsafe_allow_html=True)
     st.markdown('<div class="welcome-sub">Ask about repair methods, specifications, compliance, or field procedures.</div>', unsafe_allow_html=True)
 
     suggestions = [

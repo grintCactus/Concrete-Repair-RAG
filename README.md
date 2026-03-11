@@ -1,4 +1,4 @@
-# Structural Concrete Repair RAG
+# Concrete Repair RAG
 
 A retrieval-augmented generation (RAG) system for TxDOT structural concrete repair standards, built with OpenAI embeddings, ChromaDB, and Claude.
 
