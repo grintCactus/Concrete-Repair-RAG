@@ -1,0 +1,22 @@
+# API keys
+.env
+
+# Virtual environment
+venv/
+
+# Parsed JSON cache (regenerated from PDFs)
+data/parsed/
+data/chunks/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,7 @@
+pymupdf
+pdfplumber
+chromadb
+openai
+anthropic
+tiktoken
+streamlit
